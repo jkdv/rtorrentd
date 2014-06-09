@@ -3,11 +3,13 @@ rtorrentd
 
 <p>This is a rTorrent daemon file for Ubuntu.</p>
 
-<h3>Usage<h3/>
+<h2>Usage<h2/>
 <p>
-$ mv {THIS FILE} /etc/init.d/<br/>
-$ update-rc.d rtorrentd defaults<br/>
+$ sudo mv rtorrentd /etc/init.d/<br/>
+$ sudo update-rc.d rtorrentd defaults<br/>
 <p/>
 
-<h3>Dependencies</h3>
-<p>tmux</p>
+<h2>Dependencies</h2>
+<ul>
+  <li>tmux</li>
+</ul>
